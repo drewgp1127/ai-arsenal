@@ -9,3 +9,7 @@ Drop links below. Notes and categories are optional.
 ## Seed review log
 
 The five initial links were reviewed on 2026-10-30 and moved to [CATALOG.md](CATALOG.md): VengeanceUI, Motion, shadcn/ui, Context7 and UI UX Pro Max. All remain reference-only.
+
+## Subsequent reviews
+
+- 2026-10-30: [React Bits](https://github.com/DavidHDev/react-bits) reviewed and recorded in [CATALOG.md](CATALOG.md); reference-only.
