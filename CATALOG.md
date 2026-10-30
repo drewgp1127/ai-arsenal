@@ -1,6 +1,6 @@
 # Resource catalog
 
-Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. These are source reviews, not installation, security audits or runtime validation. All five entries are optional and reference-only in this library.
+Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. These are source reviews, not installation, security audits or runtime validation. All six entries are optional and reference-only in this library.
 
 ## VengeanceUI
 
@@ -46,3 +46,12 @@ Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. Thes
 - Use and caveats: Read as optional guidance. Skill installation/execution is separate and cannot override project instructions or approved designs.
 - Review: reviewed, 2026-10-30; evidence: upstream README blob `478738265751cf01352d1082c2e65be4467cd55c`.
 - Adoption: reference-only; no installation or integration performed by this catalog.
+
+## React Bits
+
+- Source: [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits); [official component demos](https://reactbits.dev/).
+- Category: ui-components, animation; kind: Copyable React component and motion-effects reference.
+- Purpose: Animated text, hover interactions, buttons, navigation, cards, backgrounds and other customizable React interface elements, with JavaScript/TypeScript and CSS/Tailwind variants.
+- Use and caveats: Inspect each component's dependencies, bundle and rendering cost, accessibility, mobile behavior and reduced-motion support before adoption. The source uses an MIT + Commons Clause license: components may be used in applications, but cannot be resold or redistributed as standalone components; retain applicable notices. The optional shadcn registry/MCP integration needs separate configuration and approval.
+- Review: reviewed, 2026-10-30; evidence: upstream README blob `c19bf4af45a7217c0d1f77bcd183fb64f9594d64` and LICENSE.md blob `4069ce9d0ef1a712c93d6ce48ade5d5667e0f5ee`.
+- Adoption: reference-only; no components installed, MCP configured, runtime testing or application integration performed.
