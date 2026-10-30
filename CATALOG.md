@@ -1,6 +1,6 @@
 # Resource catalog
 
-Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. These are source reviews, not installation, security audits or runtime validation. All six entries are optional and reference-only in this library.
+Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. These are source reviews, not installation, security audits or runtime validation. All seven entries are optional and reference-only in this library.
 
 ## VengeanceUI
 
@@ -55,3 +55,12 @@ Descriptions reviewed against upstream READMEs on October 30, 2026 Pacific. Thes
 - Use and caveats: Inspect each component's dependencies, bundle and rendering cost, accessibility, mobile behavior and reduced-motion support before adoption. The source uses an MIT + Commons Clause license: components may be used in applications, but cannot be resold or redistributed as standalone components; retain applicable notices. The optional shadcn registry/MCP integration needs separate configuration and approval.
 - Review: reviewed, 2026-10-30; evidence: upstream README blob `c19bf4af45a7217c0d1f77bcd183fb64f9594d64` and LICENSE.md blob `4069ce9d0ef1a712c93d6ce48ade5d5667e0f5ee`.
 - Adoption: reference-only; no components installed, MCP configured, runtime testing or application integration performed.
+
+## Motion Primitives
+
+- Source: [ibelick/motion-primitives](https://github.com/ibelick/motion-primitives); [component demos and documentation](https://motion-primitives.com/docs).
+- Category: ui-components, animation; kind: Copyable, customizable React motion components.
+- Purpose: A collection of animated interface patterns and reusable components built with Motion and Tailwind CSS; useful for researching text effects, UI transitions and interactive controls.
+- Use and caveats: Upstream describes the project as beta. Inspect each component's source, dependencies and compatibility before copying it into a project. Evaluate accessibility, reduced-motion behavior and mobile performance. MIT licensed; retain required copyright and license notice where applicable. Importing source or running its CLI is a separate integration step.
+- Review: reviewed, 2026-10-30; evidence: upstream README blob `cbbeeee210f70418daf10ae495452b33ae08c044` and LICENCE.md blob `1a911b3bb726a0ceb00a6270853fdab52dff598d`.
+- Adoption: reference-only; no component installation, runtime validation, new dependencies or integrations performed.
