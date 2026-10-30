@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage AI Arsenal"
+  short_description: "Capture, review, and find useful AI resources"
+  default_prompt: "Use $manage-ai-arsenal to add these links to my resource inbox."
